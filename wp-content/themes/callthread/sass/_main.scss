@@ -1,0 +1,206 @@
+// Colors
+$main-color: #37396D;
+$secondary-color: #FF6B00;
+body,html {
+    font-family: Visuelt Pro;
+    height: 100%;
+}
+.navbar-transparent {
+    padding: 3.4rem 4.9rem;
+    transition: 300ms;
+    @media screen and (max-width: 426px){
+         padding: .5rem 1rem !important;
+         background: $secondary-color;
+    }
+    .navbar-brand {
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        @media screen and (max-width: 426px) {
+            font-size: 20px !important;
+        }
+    }
+    .navbar-nav .nav-link {
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 500;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .btn {
+        @media screen and (max-width: 376px) {
+            display: block;
+            margin: 8px 0px !important;
+            width: 100%;
+        }
+    }
+    &.active {
+        background: $secondary-color;
+        padding: 0.87rem 4.9rem;
+    }
+}
+.main-container {
+    height: 100%;
+}
+.hero {
+    height: 100%;
+    &-title {
+        font-weight: 500;
+        font-size: 70px;
+        line-height: 100%;
+        color: #fff;
+        max-width: 70%;
+        margin-bottom: 25px;
+        @media screen and (max-width: 426px) {
+            font-size: 40px;
+            max-width: 90%;
+        }
+    }
+    &-sub {
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 27px;
+        color: #B0B2DB;
+        max-width: 70%;
+        @media screen and (max-width: 426px) {
+            font-size: 18px;
+            max-width: 90%;
+        }
+        span {
+            margin-bottom: 35px;
+            display: block;
+        }
+    }
+    &-buttons {
+        .btn {
+            @media screen and (max-width: 376px) {
+                display: block;
+                margin: 8px 0px !important;
+            }
+        }
+    }
+    &-text {
+        .bg-primary {
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            @media screen and (max-width: 426px) {
+                height: 100%;
+                padding: 120px 0px 70px;
+            }
+        }
+    }
+    &-img {
+        height: calc(100% + 220px);
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../../img/image.png');
+        &--container {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                max-width: 100%;
+
+            }
+        }
+        @media screen and (max-width: 426px) {
+            height: auto;
+        }
+    }
+}
+section.container {
+    padding: 130px 15px 90px;
+    @media screen and (max-width: 426px) {
+        padding: 40px 15px;
+    }
+}
+.headline {
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    color: #2F3037;
+    margin-bottom: 18px;
+    line-height: 120%;
+     @media screen and (max-width: 426px) {
+         font-size: 35px;
+     }
+    &-subtitle {
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 170%;
+        text-align: center;
+        color: #535356;
+        margin: 0px auto 35px;
+        max-width: 75%;
+        @media screen and (max-width: 426px) {
+            font-size: 18px;
+            max-width: 90%;
+        }
+    }
+}
+.section {
+    &-img {
+        margin-top: 70px;
+        img {
+            max-width: 100%;
+            width: 100%;
+            filter: drop-shadow(0px 36px 35px rgba(0, 0, 0, 0.2));
+        }
+    }
+}
+.bg-half {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 60%, rgba(242, 243, 249, 1) 60%, rgba(242, 243, 249, 1) 100%);
+}
+.bg-gray {
+    background: #F2F3F9;
+}
+.value-content {
+    padding: 50px 0px 160px;
+    &--item {
+        .item {
+            margin-bottom: 20px;
+            @media screen and (max-width: 426px) {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            &-icon {
+                padding: 43px;
+                background: #FFFFFF;
+                box-shadow: 0px 18px 50px rgba(56, 58, 114, 0.11);
+                border-radius: 8px;
+                margin-right: 30px;
+                @media screen and (max-width: 426px) {
+                    padding: 20px;
+                    margin: 0 0 14px;
+                }
+                img {
+                    width: 45px;
+                    height: 45px;
+                    object-fit: contain;
+                }
+            }
+            &-title {
+                display: block;
+                font-size: 20px;
+                line-height: 120%;
+                /* identical to box height, or 24px */
+                color: #2F3037;
+                margin-bottom: 10px;
+            }
+            &-content {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 170%;
+                /* or 27px */
+                color: #535356;
+            }
+        }
+    }
+}

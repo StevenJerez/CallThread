@@ -1,28 +1,4 @@
 /*!
-Theme Name: CallThread
-Theme URI: http://underscores.me/
-Author: Steven Jerez
-Author URI: http://stevenjerez.me
-Description: a code challenge
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: callthread
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-CallThread is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-
-/*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -12097,7 +12073,7 @@ html {
 	padding: 0
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 769px) {
 	.navbar-transparent .btn {
 		display: block;
 		margin: 8px 0px !important;
@@ -12128,7 +12104,7 @@ html {
 	margin-bottom: 25px
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 769px) {
 	.hero-title {
 		font-size: 40px;
 		max-width: 90%
@@ -12155,7 +12131,7 @@ html {
 	display: block
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 769px) {
 	.hero-buttons .btn {
 		display: block;
 		margin: 8px 0px !important
@@ -12191,7 +12167,7 @@ html {
 	background-position: bottom center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("http://callthread.local/wp-content/uploads/2021/07/image.png")
+	background-image: url("/wp-content/uploads/2021/07/image.png")
 }
 
 .hero-img--container {

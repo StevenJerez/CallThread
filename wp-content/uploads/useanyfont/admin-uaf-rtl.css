@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'visuelt-pro';
+					src: url('/wp-content/uploads/useanyfont/244Visuelt-Pro.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/244Visuelt-Pro.woff') format('woff');
+				}
+
+				.visuelt-pro{font-family: 'visuelt-pro' !important;}
+
+				.et_gf_visuelt-pro{background:none !important;font-family:visuelt-pro;text-indent:0 !important;font-size:25px;}
+
+		
